@@ -1,0 +1,58 @@
+PODS:
+  - connectivity_plus (0.0.1):
+    - FlutterMacOS
+  - device_info_plus (0.0.1):
+    - FlutterMacOS
+  - flutter_webrtc (1.6.3):
+    - FlutterMacOS
+    - WebRTC-SDK (= 150.7871.04)
+  - FlutterMacOS (1.0.0)
+  - koracle_engine (0.0.1):
+    - Flutter
+    - flutter_webrtc
+    - FlutterMacOS
+    - WebRTC-SDK (= 150.7871.04)
+  - livekit_client (2.13.2):
+    - flutter_webrtc
+    - FlutterMacOS
+    - WebRTC-SDK (= 150.7871.04)
+  - WebRTC-SDK (150.7871.04)
+
+DEPENDENCIES:
+  - connectivity_plus (from `Flutter/ephemeral/.symlinks/plugins/connectivity_plus/macos`)
+  - device_info_plus (from `Flutter/ephemeral/.symlinks/plugins/device_info_plus/macos`)
+  - flutter_webrtc (from `Flutter/ephemeral/.symlinks/plugins/flutter_webrtc/macos`)
+  - FlutterMacOS (from `Flutter/ephemeral`)
+  - koracle_engine (from `Flutter/ephemeral/.symlinks/plugins/koracle_engine/darwin`)
+  - livekit_client (from `Flutter/ephemeral/.symlinks/plugins/livekit_client/macos`)
+
+SPEC REPOS:
+  trunk:
+    - WebRTC-SDK
+
+EXTERNAL SOURCES:
+  connectivity_plus:
+    :path: Flutter/ephemeral/.symlinks/plugins/connectivity_plus/macos
+  device_info_plus:
+    :path: Flutter/ephemeral/.symlinks/plugins/device_info_plus/macos
+  flutter_webrtc:
+    :path: Flutter/ephemeral/.symlinks/plugins/flutter_webrtc/macos
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+  koracle_engine:
+    :path: Flutter/ephemeral/.symlinks/plugins/koracle_engine/darwin
+  livekit_client:
+    :path: Flutter/ephemeral/.symlinks/plugins/livekit_client/macos
+
+SPEC CHECKSUMS:
+  connectivity_plus: 4adf20a405e25b42b9c9f87feff8f4b6fde18a4e
+  device_info_plus: 4fb280989f669696856f8b129e4a5e3cd6c48f76
+  flutter_webrtc: c7754800cea651bdfa9e8608fdb99b33a0880858
+  FlutterMacOS: c232990155153907050900a2e175c7773903ba4e
+  koracle_engine: 851bb02b8b2d159c9945f888a460b7f9904356a7
+  livekit_client: c80bedf4e839fe23e2ce2b0615519029603b6e2a
+  WebRTC-SDK: 71bce2be85c3082d24bbfd1a9930ea07d0c494c1
+
+PODFILE CHECKSUM: 89c84cf5c2351c1e554c6dea18d31a879fc3a19e
+
+COCOAPODS: 1.17.0

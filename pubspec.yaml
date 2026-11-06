@@ -1,5 +1,5 @@
 name: koracle
-description: "A new Flutter project."
+description: "KOracle: share your screen with friends."
 publish_to: 'none'
 version: 0.1.0+1
 
@@ -9,6 +9,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  # Renders the Design System's IBM Plex Mono.
+  google_fonts: ^8.2.1
+  kodev_ui:
+    git:
+      url: https://github.com/KoalaDevelopments/KODevUI.git
+      ref: main
+  koracle_engine:
+    git:
+      url: https://github.com/KoalaDevelopments/KOracleEngine.git
+      ref: work/screen-sharing-platform-architecture-63e3b3
 
 dev_dependencies:
   flutter_test:
